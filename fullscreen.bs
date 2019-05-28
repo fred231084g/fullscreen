@@ -270,6 +270,9 @@ when invoked, must run these steps:
    <li><p>This algorithm is <a>allowed to request fullscreen</a>.
   </ul>
 
+ <li><p>If <var>error</var> is false, then <a>consume user activation</a> for
+ <var>pendingDoc</var>'s <a>browsing context</a>.
+
  <li><p>Return <var>promise</var>, and run the remaining steps <a>in parallel</a>.
 
  <li>
